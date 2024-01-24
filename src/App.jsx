@@ -1,4 +1,3 @@
-import "./App.css";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Signup from './pages/Signup';
 import Login from './pages/Login';
@@ -19,9 +18,7 @@ function App() {
         <Route path='/login' element={<Login/>} />
         <Route path='/userprojects' element={<UserProjects/>} />
         <Route path='/addprojects' element={<AddProject/>} />
-
       </Routes>
-      
     </BrowserRouter>
     </>
   )
