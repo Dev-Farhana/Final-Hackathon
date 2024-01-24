@@ -11,10 +11,15 @@ function Home() {
              <h2 style={{fontSize: "90px", paddingTop: "100px"}}> Want to see any 
              <span className='text-info'>  Users  Projects ! </span>   </h2>
              <h2 className='text-secondary'>  Checkout the projects from here  </h2>
-                <Link to={"/userprojects"}  type="button"  className="btn btn-outline-secondary my-3">
-                  View Projects
+                <Link to={"/login"}  type="button"  className="btn btn-outline-secondary my-3">
+                  Login 
                </Link>
+                <Link to={"/signup"}  type="button"  className="btn btn-outline-secondary my-3">
+                  Signup
+               </Link>
+
             </div>
+
             <div 
              className='col-lg-6 d-flex justify-content-center align-items-end flex-column'
              style={{height: "91.5vh"}} 
